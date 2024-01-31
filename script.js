@@ -32,7 +32,7 @@ function showMessage(response) {
     document.getElementById("name").remove();
     document.getElementById("no-button").remove();
 
-    // Update text content, show message, and change image source to "dance.gif"
+    // Update text content, show message, and change image source to "dance-techno.gif"
     const yesMessage = document.getElementById("question");
     yesMessage.textContent = "You ROCK ROCK ROCK my world <3";
     yesMessage.style.display = "block";
