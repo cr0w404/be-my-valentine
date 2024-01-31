@@ -8,8 +8,8 @@ function showMessage(response) {
     // Set button position to absolute
     noButton.style.position = "absolute";
 
-    // Change image source to "gun.gif"
-    document.getElementsByClassName("image")[0].src = "images/dance-techno.gif";
+    // Change image source to "angrymona.gif"
+    document.getElementsByClassName("image")[0].src = "images/angrymona.gif";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -37,7 +37,7 @@ function showMessage(response) {
     yesMessage.textContent = "You ROCK ROCK ROCK my world -  &#128527;";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementsByClassName("image")[0].src = "images/dance.techno.gif";
 
     // Remove yes button
     document.getElementById("yesButton").remove();
