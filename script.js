@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Every time you click on NO, you will get one kiss less";
+      "Every time you click on NO, you will get one kiss less - Would you like to revise your initial answer?";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
